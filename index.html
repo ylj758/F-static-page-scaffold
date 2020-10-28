@@ -1,15 +1,45 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
-  <link rel="stylesheet" href="./src/style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="./src/style/index.css">
 </head>
 <body>
-  Hello World
-  <script src="src/app.js"></script>
+<script src="src/app.js"></script>
+<header class="header">
+    <section class="logo-register">
+        <h1 class="logo">facebook</h1>
+        <button class="register-button">注册</button>
+    </section>
+    <label class="join-facebook">加入或登录 Facebook <span class="triangle">▼</span></label>
+</header>
+<main class="content">
+    <h3>创建主页</h3>
+    <p>
+        向 Facebook 全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。
+    </p>
+    <section class="detail-content">
+        <figure class="business-card">
+            <img src="//facebook.com/images/pages/create/biz_illustration.png" alt="">
+            <figcaption>
+                <p class="business">商家或品牌</p>
+                <p class="detail-business">在 Facebook 上展示商品和服务，突显品牌，向更多顾客推广业务。</p>
+            </figcaption>
+            <button class="business-start">开始</button>
+        </figure>
+        <figure class="group-card">
+            <img src="//facebook.com/images/pages/create/community_illustration.png" alt="">
+            <figcaption>
+                <p class="group">社群或公众人物</p>
+                <p class="detail-group">与你的社群、组织、团队、小组或俱乐部中的用户建立联系，分享内容。</p>
+            </figcaption>
+            <button class="group-start">开始</button>
+        </figure>
+    </section>
+</main>
 </body>
 </html>
